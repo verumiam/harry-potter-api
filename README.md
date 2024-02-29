@@ -1,16 +1,20 @@
-_ - npm install pnpm -g
+_ 
+- npm install pnpm -g
 - pnpm dev
 - pnpm build
-- docker-compose up --build_
+- docker-compose up --build
+_
 
 
 **Technologies:**
 
-_ - next.js
+_ 
+- next.js
 - react.js
 - docker
 - nginx
 - pnpm
 - chart.js
 - redux
-- redux toolkit_
+- redux toolkit
+_
