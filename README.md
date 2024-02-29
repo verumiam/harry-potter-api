@@ -1,12 +1,12 @@
-_- npm install pnpm -g
+_ - npm install pnpm -g
 - pnpm dev
 - pnpm build
 - docker-compose up --build_
 
-**
-Technologies:
-**
-_- next.js
+
+**Technologies:**
+
+_ - next.js
 - react.js
 - docker
 - nginx
