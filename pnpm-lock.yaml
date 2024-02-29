@@ -6,7 +6,7 @@ settings:
 
 dependencies:
   '@reduxjs/toolkit':
-    specifier: ^2.2.0
+    specifier: ^2.2.1
     version: 2.2.1(react-redux@9.1.0)(react@18.2.0)
   chart.js:
     specifier: ^4.4.1
@@ -15,13 +15,13 @@ dependencies:
     specifier: 14.1.0
     version: 14.1.0(@babel/core@7.23.9)(react-dom@18.2.0)(react@18.2.0)
   react:
-    specifier: ^18
+    specifier: ^18.2.0
     version: 18.2.0
   react-chartjs-2:
     specifier: ^5.2.0
     version: 5.2.0(chart.js@4.4.1)(react@18.2.0)
   react-dom:
-    specifier: ^18
+    specifier: ^18.2.0
     version: 18.2.0(react@18.2.0)
   react-redux:
     specifier: ^9.1.0
@@ -41,19 +41,19 @@ devDependencies:
     specifier: ^4.3.0
     version: 4.3.0(prettier@3.2.5)
   '@types/node':
-    specifier: ^20
+    specifier: ^20.11.20
     version: 20.11.20
   '@types/react':
-    specifier: ^18
+    specifier: ^18.2.60
     version: 18.2.60
   '@types/react-dom':
-    specifier: ^18
+    specifier: ^18.2.19
     version: 18.2.19
   autoprefixer:
-    specifier: ^10.0.1
+    specifier: ^10.4.17
     version: 10.4.17(postcss@8.4.35)
   eslint:
-    specifier: ^8
+    specifier: ^8.57.0
     version: 8.57.0
   eslint-config-next:
     specifier: 14.1.0
@@ -68,7 +68,7 @@ devDependencies:
     specifier: ^0.39.0
     version: 0.39.0
   postcss:
-    specifier: ^8
+    specifier: ^8.4.35
     version: 8.4.35
   prettier:
     specifier: ^3.2.5
@@ -77,10 +77,10 @@ devDependencies:
     specifier: ^4.0.0
     version: 4.0.0
   tailwindcss:
-    specifier: ^3.3.0
+    specifier: ^3.4.1
     version: 3.4.1
   typescript:
-    specifier: ^5
+    specifier: ^5.3.3
     version: 5.3.3
   url-loader:
     specifier: ^4.1.1
@@ -2001,12 +2001,12 @@ packages:
   /@types/eslint-scope@3.7.7:
     resolution: {integrity: sha512-MzMFlSLBqNF2gcHWO0G1vP/YQyfvrxZ0bF+u7mzUdZ1/xK4A4sru+nraZz5i3iEIk1l1uyicaDVTB4QbbEkAYg==}
     dependencies:
-      '@types/eslint': 8.56.3
+      '@types/eslint': 8.56.4
       '@types/estree': 1.0.5
     dev: true
 
-  /@types/eslint@8.56.3:
-    resolution: {integrity: sha512-PvSf1wfv2wJpVIFUMSb+i4PvqNYkB9Rkp9ZDO3oaWzq4SKhsQk4mrMBr3ZH06I0hKrVGLBacmgl8JM4WVjb9dg==}
+  /@types/eslint@8.56.4:
+    resolution: {integrity: sha512-lG1GLUnL5vuRBGb3MgWUWLdGMH2Hps+pERuyQXCfWozuGKdnhf9Pbg4pkcrVUHjKrU7Rl+GCZ/299ObBXZFAxg==}
     dependencies:
       '@types/estree': 1.0.5
       '@types/json-schema': 7.0.15
@@ -2026,6 +2026,12 @@ packages:
 
   /@types/node@20.11.20:
     resolution: {integrity: sha512-7/rR21OS+fq8IyHTgtLkDK949uzsa6n8BkziAKtPVpugIkO6D+/ooXMvzXxDnZrmtXVfjb1bKQafYpb8s89LOg==}
+    dependencies:
+      undici-types: 5.26.5
+    dev: true
+
+  /@types/node@20.11.22:
+    resolution: {integrity: sha512-/G+IxWxma6V3E+pqK1tSl2Fo1kl41pK1yeCyDsgkF9WlVAme4j5ISYM2zR11bgLFJGLN5sVK40T4RJNuiZbEjA==}
     dependencies:
       undici-types: 5.26.5
     dev: true
@@ -3026,6 +3032,14 @@ packages:
 
   /enhanced-resolve@5.15.0:
     resolution: {integrity: sha512-LXYT42KJ7lpIKECr2mAXIaMldcNCh/7E0KBKOu4KSfkHmP+mZmSs+8V5gBAqisWBy0OO4W5Oyys0GO1Y8KtdKg==}
+    engines: {node: '>=10.13.0'}
+    dependencies:
+      graceful-fs: 4.2.11
+      tapable: 2.2.1
+    dev: true
+
+  /enhanced-resolve@5.15.1:
+    resolution: {integrity: sha512-3d3JRbwsCLJsYgvb6NuWEG44jjPSOMuS73L/6+7BZuoKm3W+qXnSoIYVHi8dG7Qcg4inAY4jbzkZ7MnskePeDg==}
     engines: {node: '>=10.13.0'}
     dependencies:
       graceful-fs: 4.2.11
@@ -4097,7 +4111,7 @@ packages:
     resolution: {integrity: sha512-7vuh85V5cdDofPyxn58nrPjBktZo0u9x1g8WtjQol+jZDaE+fhN+cIvTj11GndBnMnyfrUOG1sZQxCdjKh+DKg==}
     engines: {node: '>= 10.13.0'}
     dependencies:
-      '@types/node': 20.11.20
+      '@types/node': 20.11.22
       merge-stream: 2.0.0
       supports-color: 8.1.1
     dev: true
@@ -5834,7 +5848,7 @@ packages:
       acorn-import-assertions: 1.9.0(acorn@8.11.3)
       browserslist: 4.23.0
       chrome-trace-event: 1.0.3
-      enhanced-resolve: 5.15.0
+      enhanced-resolve: 5.15.1
       es-module-lexer: 1.4.1
       eslint-scope: 5.1.1
       events: 3.3.0

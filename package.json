@@ -11,17 +11,15 @@
     "lint": "pnpm next lint && pnpm run lint:md",
     "lint:md": "pnpm markdownlint --ignore-path .gitignore . --config ./markdownlint-config.js",
     "lint:md:fix": "pnpm markdownlint --fix --ignore-path .gitignore . --config ./markdownlint-config.js",
-    "format": "pnpm prettier --write \"**/*.{css,js,jsx,ts,tsx,json}\"",
-    "update-git-hooks": "pnpx simple-git-hooks",
-    "prepare": "pnpm run update-git-hooks"
+    "format": "pnpm prettier --write \"**/*.{css,js,jsx,ts,tsx,json}\""
   },
   "dependencies": {
-    "@reduxjs/toolkit": "^2.2.0",
+    "@reduxjs/toolkit": "^2.2.1",
     "chart.js": "^4.4.1",
     "next": "14.1.0",
-    "react": "^18",
+    "react": "^18.2.0",
     "react-chartjs-2": "^5.2.0",
-    "react-dom": "^18",
+    "react-dom": "^18.2.0",
     "react-redux": "^9.1.0"
   },
   "devDependencies": {
@@ -29,20 +27,20 @@
     "@commitlint/config-conventional": "^19.0.0",
     "@svgr/webpack": "^8.1.0",
     "@trivago/prettier-plugin-sort-imports": "^4.3.0",
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "autoprefixer": "^10.0.1",
-    "eslint": "^8",
+    "@types/node": "^20.11.20",
+    "@types/react": "^18.2.60",
+    "@types/react-dom": "^18.2.19",
+    "autoprefixer": "^10.4.17",
+    "eslint": "^8.57.0",
     "eslint-config-next": "14.1.0",
     "file-loader": "^6.2.0",
     "lint-staged": "^15.2.2",
     "markdownlint-cli": "^0.39.0",
-    "postcss": "^8",
+    "postcss": "^8.4.35",
     "prettier": "^3.2.5",
     "svgo-loader": "^4.0.0",
-    "tailwindcss": "^3.3.0",
-    "typescript": "^5",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.3",
     "url-loader": "^4.1.1"
   }
 }
